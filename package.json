@@ -1,0 +1,27 @@
+{
+  "name": "practice-backend",
+  "version": "1.0.0",
+  "description": "learning tutorial of the backend concepts",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gowrivijayan13/practice-backend.git"
+  },
+  "author": "gowrivijayan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gowrivijayan13/practice-backend/issues"
+  },
+  "homepage": "https://github.com/Gowrivijayan13/practice-backend#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3",
+    "nodemon": "^3.1.14"
+  }
+}
